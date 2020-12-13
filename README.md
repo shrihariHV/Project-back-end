@@ -4,6 +4,8 @@ This project was generated with [Node js] version 12.18.3.
 
 ## Instruction to start the server
 
+Checkout to dev-final branch
+
 1) Start your MySQL server(Version 8 and above)
 2) Add .env file in the root directory and fill below data
     USER='' ,
