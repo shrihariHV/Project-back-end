@@ -6,6 +6,7 @@ dotenv.config();
 
 // const mySqlConnection = require('./db-connection')
 const productRoutes = require('./routes/products');
+const userRoutes = require('./routes/users');
 
 app.use(cors());
 
@@ -17,6 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 app.use("/products", productRoutes);
+app.use("/users", userRoutes);
 
 
 app.listen(3000, () => console.log(`Server listening on port....`))
